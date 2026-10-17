@@ -1,8 +1,8 @@
 # KillerLand
 
-Reversed BYOVD process killers. Each one abuses a legitimate signed kernel driver to terminate arbitrary processes from kernel mode, including PPL-protected EDR/AV.
+Over a year of reversing vulnerable signed kernel drivers that kill any process from kernel mode, PPL-protected or not. New killers get added as they get reversed.
 
-Every driver here was reversed independently. Writeups cover the full IDA analysis and weaponization.
+All research by Jehad Abudagga (@j3h4ck).
 
 ## Killers
 
