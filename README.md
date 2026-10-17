@@ -32,12 +32,6 @@ sc stop DriverName
 sc delete DriverName
 ```
 
-## See also
-
-- [LOLDrivers](https://www.loldrivers.io/)
-- [KDU (hfiref0x)](https://github.com/hfiref0x/KDU)
-- [Microsoft Driver Block Rules](https://learn.microsoft.com/en-us/windows/security/application-security/application-control/app-control-for-business/design/microsoft-recommended-driver-block-rules)
-
 ## Disclaimer
 
 For educational and authorized security research only.
