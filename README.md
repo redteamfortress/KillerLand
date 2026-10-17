@@ -34,8 +34,8 @@ sc delete DriverName
 
 ## Disclaimer
 
-For educational and authorized security research only.
+this project is for **educational and authorized security research purposes only**. do not use this against systems you do not own or have explicit permission to test. the author is not responsible for any misuse.
 
 ## Author
 
-[@j3h4ck](https://github.com/j3h4ck) / [RedTeamFortress](https://github.com/redteamfortress)
+[Linkedin](https://www.linkedin.com/in/jehadabudagga) / [RedTeamFortress](https://github.com/redteamfortress) / 
