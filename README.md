@@ -13,7 +13,7 @@ All research by Jehad Abudagga ([@j3h4ck](https://x.com/j3h4ck)).
 
 | # | Name | Vendor | IOCTL | Signer | POC | Date |
 |---|------|--------|-------|--------|-----|-----|
-| 1 | libwasys.sys | OPSWAT | `0x22E00C` | Microsoft | [repo](https://github.com/redteamfortress/PhantomKiller) | 18/10/2026 |
+| 1 | libwasys.sys | OPSWAT | `0x22E00C` | Microsoft | [repo](https://github.com/redteamfortress/KillerLand/tree/main/1.%20Libwasys) | 18/10/2026 |
 | 2 | MonProcessControl.sys | HONOR | `0x22400C` | Microsoft | [repo](https://github.com/redteamfortress/PhantomKiller) | 18/10/2026 |
 
 ## Loading
