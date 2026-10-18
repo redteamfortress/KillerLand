@@ -13,9 +13,7 @@ All research by Jehad Abudagga ([@j3h4ck](https://x.com/j3h4ck)).
 
 | # | Name | Vendor | IOCTL | Signer | POC |
 |---|------|--------|-------|--------|-----|
-| 1 | PhantomKiller | Lenovo | `0x222014` | Lenovo | [repo](https://github.com/redteamfortress/PhantomKiller) |
-| 2 | PoisonKiller | Microsoft | `0x22E010` | MSWHCP | [repo](https://github.com/redteamfortress/PoisonKiller) |
-| 3 | PPLShade | OPSWAT | `0x2420031` | - | [repo](https://github.com/redteamfortress/CVE-2026-36425) |
+| 1 | libwasys.sys | OPSWAT | `0x22E00C` | Microsoft | [repo](https://github.com/redteamfortress/PhantomKiller) |
 
 ## Loading
 
