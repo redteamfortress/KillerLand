@@ -14,6 +14,7 @@ All research by Jehad Abudagga ([@j3h4ck](https://x.com/j3h4ck)).
 | # | Name | Vendor | IOCTL | Signer | POC |
 |---|------|--------|-------|--------|-----|
 | 1 | libwasys.sys | OPSWAT | `0x22E00C` | Microsoft | [repo](https://github.com/redteamfortress/PhantomKiller) |
+| 2 | MonProcessControl.sys | HONOR | `0x22400C` | Microsoft | [repo](https://github.com/redteamfortress/PhantomKiller) |
 
 ## Loading
 
@@ -39,9 +40,8 @@ killer_poc.exe <PID>
 
 | # | Driver | SHA256 |
 |---|--------|--------|
-| 1 | BootRepair.sys | `5ab36c116767eaae53a466fbc2dae7cfd608ed77721f65e83312037fbd57c946` |
-| 2 | PoisonX.sys | `TODO` |
-| 3 | ardrv.sys | `07c5209bf83065fe760f4fee4ed2308b0c523671f68ca73a3854c2c8c28c0541` |
+| 1 | libwasys.sys | `04fda396f42384d9295fe306336ee4a685a0c341debdc27ddf9169f0336b46a6` |
+| 2 | MonProcessControl.sys | `0e1cc4f205ddc6b78578de2da209ba3ba1f16fac482f4042bbd02036fc470f04` |
 
 ## Disclaimer
 
