@@ -11,10 +11,10 @@ All research by Jehad Abudagga ([@j3h4ck](https://x.com/j3h4ck)).
 
 ## Killers
 
-| # | Name | Vendor | IOCTL | Signer | POC | Date |
-|---|------|--------|-------|--------|-----|-----|
-| 1 | libwasys.sys | OPSWAT | `0x22E00C` | Microsoft | [repo](https://github.com/redteamfortress/KillerLand/tree/main/1.%20Libwasys) | 18/10/2026 |
-| 2 | MonProcessControl.sys | HONOR | `0x22400C` | Microsoft | [repo](https://github.com/redteamfortress/KillerLand/tree/main/2.%20MonProcessControl) | 18/10/2026 |
+| # | Name | Vendor | SymLink | IOCTL | Signer | POC | Date |
+|---|------|--------|-------|-------|--------|-----|-----|
+| 1 | libwasys.sys | OPSWAT | \\\\.\WasysControl | `0x22E00C` | Microsoft | [repo](https://github.com/redteamfortress/KillerLand/tree/main/1.%20Libwasys) | 18/10/2026 |
+| 2 | MonProcessControl.sys | HONOR | \\\\.\MonProcessControl | `0x22400C` | Microsoft | [repo](https://github.com/redteamfortress/KillerLand/tree/main/2.%20MonProcessControl) | 18/10/2026 |
 
 ## Loading
 
