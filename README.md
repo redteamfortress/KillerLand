@@ -1,5 +1,3 @@
-# KillerLand
-
 <p align="center">
   <img src="https://raw.githubusercontent.com/redteamfortress/KillerLand/main/killerland.png" alt="KillerLand" width="1400"/>
 </p>
