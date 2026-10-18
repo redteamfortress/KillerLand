@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/redteamfortress/KillerLand/main/killerland.png" alt="KillerLand" width="700"/>
+  <img src="https://raw.githubusercontent.com/redteamfortress/KillerLand/main/killerland.png" alt="KillerLand" width="1400"/>
 </p>
 
 Over a year of reversing vulnerable signed kernel drivers that kill any process from kernel mode, PPL-protected or not. New killers get added as they get reversed.
