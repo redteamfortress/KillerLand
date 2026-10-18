@@ -23,6 +23,11 @@ sc create DriverName type= kernel binPath= C:\path\to\driver.sys
 sc start DriverName
 ```
 
+Running:
+
+```
+killer_poc.exe <PID>
+```
 Cleanup:
 
 ```
@@ -30,11 +35,6 @@ sc stop DriverName
 sc delete DriverName
 ```
 
-Running:
-
-```
-killer_poc.exe <PID>
-```
 
 ## Driver Hashes
 
