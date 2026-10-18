@@ -11,10 +11,10 @@ All research by Jehad Abudagga ([@j3h4ck](https://x.com/j3h4ck)).
 
 ## Killers
 
-| # | Name | Vendor | IOCTL | Signer | POC |
-|---|------|--------|-------|--------|-----|
-| 1 | libwasys.sys | OPSWAT | `0x22E00C` | Microsoft | [repo](https://github.com/redteamfortress/PhantomKiller) |
-| 2 | MonProcessControl.sys | HONOR | `0x22400C` | Microsoft | [repo](https://github.com/redteamfortress/PhantomKiller) |
+| # | Name | Vendor | IOCTL | Signer | POC | Date |
+|---|------|--------|-------|--------|-----|-----|
+| 1 | libwasys.sys | OPSWAT | `0x22E00C` | Microsoft | [repo](https://github.com/redteamfortress/PhantomKiller) | 18/10/2026 |
+| 2 | MonProcessControl.sys | HONOR | `0x22400C` | Microsoft | [repo](https://github.com/redteamfortress/PhantomKiller) | 18/10/2026 |
 
 ## Loading
 
