@@ -3,7 +3,9 @@
 </p>
 
 
-This repo is the result of hunting and reversing vulnerable signed kernel drivers for over a year. Every killer here abuses a legitimate driver to terminate any process from kernel mode, PPL-protected or not. New ones get dropped as they get reversed.
+This repo is the result of hunting and reversing vulnerable signed kernel drivers for over a year. Every killer here abuses a legitimate driver to terminate any process from kernel mode, PPL-protected or not. Works on EDR/AV protected processes.
+
+Each POC does a simple process kill by PID, you just customize it to whatever EDR process you want dead and it handles the rest from kernel. New ones get dropped as they get reversed.
 
 All research by Jehad Abudagga ([@j3h4ck](https://x.com/j3h4ck)).
 
@@ -35,11 +37,13 @@ Running:
 killer_poc.exe <PID>
 ```
 
-## See also
+## Driver Hashes
 
-- [LOLDrivers](https://www.loldrivers.io/)
-- [KDU (hfiref0x)](https://github.com/hfiref0x/KDU)
-- [Microsoft Driver Block Rules](https://learn.microsoft.com/en-us/windows/security/application-security/application-control/app-control-for-business/design/microsoft-recommended-driver-block-rules)
+| # | Driver | SHA256 |
+|---|--------|--------|
+| 1 | BootRepair.sys | `5ab36c116767eaae53a466fbc2dae7cfd608ed77721f65e83312037fbd57c946` |
+| 2 | PoisonX.sys | `TODO` |
+| 3 | ardrv.sys | `07c5209bf83065fe760f4fee4ed2308b0c523671f68ca73a3854c2c8c28c0541` |
 
 ## Disclaimer
 
@@ -47,4 +51,4 @@ Everything in this repository is published for educational and authorized securi
 
 ## Author
 
-Jehad Abudagga / [@j3h4ck](https://github.com/j3h4ck) / [RedTeamFortress](https://github.com/redteamfortress)
+Jehad Abudagga / [Medium](https://medium.com/@jehadbudagga) / [LinkedIn](https://www.linkedin.com/in/jehadabudagga/) / [X](https://x.com/j3h4ck) / [Telegram](http://t.me/j3h4ck)
